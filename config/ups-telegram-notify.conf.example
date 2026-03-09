@@ -1,0 +1,10 @@
+TOKEN="PASTE_BOT_TOKEN_HERE"
+
+CHAT_IDS=(
+    "CHAT_ID_1" 
+    "CHAT_ID_2"
+)
+
+UPS_NAME="UPS"
+
+STATE_DIR="/var/lib/ups-telegram-notify"

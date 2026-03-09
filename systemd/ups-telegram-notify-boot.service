@@ -1,0 +1,11 @@
+[Unit]
+Description=UPS Telegram Notify Boot Message
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/ups-telegram-notify.sh BOOT
+
+[Install]
+WantedBy=multi-user.target
